@@ -16,9 +16,9 @@ type Entry struct {
 // Global variables to store entries and handle concurrent access.
 var (
 	entries = []Entry{
-		{ID: 1, Name: "Entry 1"},
-		{ID: 2, Name: "Entry 2"},
-		{ID: 3, Name: "Entry 3"},
+		{ID: 1, Name: "One piece marineford arc"},
+		{ID: 2, Name: "Dragon ball super"},
+		{ID: 3, Name: "Bleach thousand year blood war"},
 	}
 	// Mutex to synchronize access to the entries slice.
 	mutex = &sync.Mutex{}
